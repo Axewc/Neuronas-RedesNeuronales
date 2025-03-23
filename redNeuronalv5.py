@@ -234,6 +234,7 @@ for train, test in kfold.split(inputs, targets):
     #Increase fold number
     fold_no = fold_no + 1
 
+#prueba
 
 # == Provide average scores ==
 print('------------------------------------------------------------------------')
