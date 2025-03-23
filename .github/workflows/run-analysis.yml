@@ -28,4 +28,4 @@ jobs:
 
     - name: Run analysis script
       run: |
-        redNeuronalv5.py #python Bragg-Neuronas-redes.ipynb Cambia esto si tu script principal tiene otro nombre o formato
+        python redNeuronalv5.py  # Asegúrate de que el archivo esté en el directorio raíz del repositorio
