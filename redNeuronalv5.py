@@ -24,7 +24,7 @@ import seaborn as sns
 
 
 # Cargar los datos
-dataset = pd.read_csv('original_noise10_Train_set.csv')
+dataset = pd.read_csv('original_noise01_test_set/original_noise10_Train_set.csv')
 dataset = dataset.reset_index(drop=True)
 dataset = dataset.sample(frac=1).reset_index(drop=True)
 
