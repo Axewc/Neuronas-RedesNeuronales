@@ -3,10 +3,10 @@ name: Run Bragg Neural Network Analysis
 on:
   push:
     branches:
-      - main
+      - master
   pull_request:
     branches:
-      - main
+      - master
 
 jobs:
   run-analysis:
